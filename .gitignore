@@ -1,0 +1,66 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+pip-log.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+*-Ex.R
+/*.Rcheck/
+/*.tar.gz
+
+# Node
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Local Claude Code config (sessions, personal settings, API keys)
+# Shared CLAUDE.md and .claude/skills/ are committable; CLAUDE.local.md holds personal overrides
+.claude/*
+!.claude/skills/
+CLAUDE.local.md
+
+# Local Gemini CLI config (settings.json, sessions in tmp/, extensions)
+# Shared GEMINI.md is committable
+.gemini/
+
+# Build / dist
+dist/
+build/
+
+# Demo project raw data — too large to ship (over GitHub's per-file cap).
+# `project_demo` is reference-only; participants don't run it, so we don't need to commit the inputs.
+project_demo/data/raw/
