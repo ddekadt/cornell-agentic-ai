@@ -2,7 +2,7 @@
 
 Materials for the agentic AI workshop at Cornell, Department of Government. The workshop will take place over two sessions, on Friday 11 and Friday 18 September 2026, 9am–12pm.
 
-> **Up to date as of 11 September 2026.** If you are reading this later, assume some of it has changed.
+> **Up to date as of 17 September 2026.** If you are reading this later, assume some of it has changed.
 
 ## Before the first session
 
@@ -22,8 +22,9 @@ You'll need a laptop you can install software on, a personal Google account, and
 | `gemini-cli-setup-mac.md` | Setup guide for macOS |
 | `gemini-cli-setup-windows.md` | Setup guide for Windows |
 | `project_participant/` | Your working folder for the first exercise — a blank `GEMINI.md` to fill in, and pre-staged data under `data/raw/` |
+| `slides/` | Slides for both sessions, as `.html` (open in a browser) and `.Rmd` source |
 
-Slides and the demo project are added as we go.
+The demo project is added as we go.
 
 ## The data
 
