@@ -24,8 +24,6 @@ You'll need a laptop you can install software on, a personal Google account, and
 | `project_participant/` | Your working folder for the first exercise — a blank `GEMINI.md` to fill in, and pre-staged data under `data/raw/` |
 | `slides/` | Slides for both sessions, as `.html` (open in a browser) and `.Rmd` source |
 
-The demo project is added as we go.
-
 ## The data
 
 `project_participant/data/raw/` holds American Community Survey data for all 2,327 census tracts in New York City, plus tract boundaries. See [`project_participant/DATA_SOURCES.md`](./project_participant/DATA_SOURCES.md) for what each file contains, where it came from, and how to join the pieces together.
